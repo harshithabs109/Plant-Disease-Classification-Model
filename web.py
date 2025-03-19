@@ -6,7 +6,7 @@ import cv2
 
 # Load and preprocess the image
 def model_predict(image_path):
-    model = tf.keras.models.load_model('plant_disease_cnn_model.keras')
+    model = tf.keras.models.load_model('trained_model_file.keras')
     img = cv2.imread(image_path)
     H, W, C = 224, 224, 3
     img = cv2.resize(img, (H, W))
