@@ -113,5 +113,3 @@ Irrelevant submissions may be marked as invalid or closed.
 </div>
 
 ---
-
-Would you like this content converted to a `.md` file or commit message too?
